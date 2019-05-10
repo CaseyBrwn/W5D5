@@ -7,13 +7,13 @@
 
 .content-header img {
     width: 100%;
-    height: auto;
+    clip: rect(0, 100px, 200px, 0);
 }
 
 .content-header .stuffz{
     position: absolute;
-    bottom: 80%;
-    left: 80%;
+    bottom: 20px;
+    left: 50%;
     font-size: 30px;
     color: white;
 
@@ -23,8 +23,8 @@
 
 .content-header .stuffz2{
     position: absolute;
-    bottom: 80%;
-    left: 20;
+    bottom: 20px;
+    right: 20px;
     background-color: silver;
     border: 1px solid black;
     border-radius: 3px;
